@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
 http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd">
-	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="5cf929af-211e-4ef3-b034-c8d7a8285523" doc:description="This application is to insert data in to database using uri parameters." >
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="5cf929af-211e-4ef3-b034-c8d7a8285523" doc:description="This application is to insert data in to MySQL database using uri parameters." >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<db:config name="Database_Config" doc:name="Database Config" doc:id="17dc41fb-3bdc-4148-9dd1-7dd52b743567" >
